@@ -25,11 +25,11 @@ function App(): JSX.Element {
                 UD CISC275 with React Hooks and TypeScript by Andrew Geraci
             </header>
             <hr></hr>
-            {/* <DoubleHalf></DoubleHalf> */}
+            {<DoubleHalf></DoubleHalf>}
             <hr></hr>
             <ChooseTeam></ChooseTeam>
             <hr></hr>
-            <ColoredBox></ColoredBox>
+            {<ColoredBox></ColoredBox>}
             <hr></hr>
             <ShoveBox></ShoveBox>
             <hr></hr>
