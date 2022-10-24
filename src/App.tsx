@@ -1,10 +1,8 @@
 import React from "react";
-/*
-import { Button } from "react-bootstrap";
-import { Container } from "react-bootstrap";
-import { Row } from "react-bootstrap";
-import { Col } from "react-bootstrap";
-*/
+//import { Button } from "react-bootstrap";
+//import { Container } from "react-bootstrap";
+//import { Row } from "react-bootstrap";
+//import { Col } from "react-bootstrap";
 //import { Rectangle } from "react-shapes";
 
 import "./App.css";
