@@ -12,7 +12,6 @@ export function ChangeColor(): JSX.Element {
         "Violet",
         "Pink"
     ];
-    const [color, setColor] = useState("");
     const [colorIndex, setColorIndex] = useState(0);
     return (
         <div>
