@@ -6,6 +6,10 @@ import React from "react";
 //import { Rectangle } from "react-shapes";
 
 import "./App.css";
+import { DoubleHalf } from "./bad-components/DoubleHalf";
+import { ColoredBox } from "./bad-components/ColoredBox";
+import { ShoveBox } from "./bad-components/ShoveBox";
+import { ChooseTeam } from "./bad-components/ChooseTeam";
 import { CheckAnswer } from "./form-components/CheckAnswer";
 import { GiveAttempts } from "./form-components/GiveAttempts";
 import { EditMode } from "./form-components/EditMode";
@@ -32,6 +36,15 @@ function App(): JSX.Element {
                 options={["a", "b", "c"]}
                 expectedAnswer="b"
             ></MultipleChoiceQuestion>
+            <hr></hr>
+            {<DoubleHalf></DoubleHalf>}
+            <hr></hr>
+            <ChooseTeam></ChooseTeam>
+            <hr></hr>
+            {<ColoredBox></ColoredBox>}
+            <hr></hr>
+            <ShoveBox></ShoveBox>
+            <hr></hr>
         </div>
     );
 }
